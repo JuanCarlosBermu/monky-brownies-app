@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2e2e2e; /* Color de fondo de la barra */
+    color: white;
+    position: sticky; /* Fija la barra al desplazarse */
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-logo img {
+    width: 75px;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links li a:hover {
+    color: #ff8c00; /* Cambia el color al pasar el mouse */
+  }
+  

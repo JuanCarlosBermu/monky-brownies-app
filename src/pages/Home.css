@@ -1,0 +1,53 @@
+.home {
+    text-align: center;
+    padding: 20px;
+    background-color: #D9B89C;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    color: #3c1f02;
+    margin-bottom: 20px;
+  }
+  
+  .brownie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .brownie-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+    padding: 15px;
+  }
+  
+  .brownie-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .buy-button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .buy-button:hover {
+    background-color: #e68900;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #333;
+  }
+  

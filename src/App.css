@@ -12,6 +12,18 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/* En App.css */
+:root {
+  --main-bg-color: #fffbf2; /* Fondo beige claro */
+  --main-text-color: #4E3629; /* Texto marrón oscuro */
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  margin: 0;
+}
+
 
 .App-header {
   background-color: #282c34;
