@@ -12,7 +12,7 @@ const Navbar = () => {
         <li><a href="#home">Perfil</a></li>
         <li><a href="#about">Sobre Nosotros</a></li>
         <li><a href="#products">Productos</a></li>
-        <li><a href="#contact">Carrito</a></li>
+        <li><a href="/src/pages/Cart">Carrito</a></li>
       </ul>
     </nav>
   );
